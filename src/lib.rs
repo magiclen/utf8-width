@@ -7,7 +7,7 @@ References: https://tools.ietf.org/html/rfc3629
 
 ## Examples
 
-```
+```rust
 extern crate utf8_width;
 
 assert_eq!(1, utf8_width::get_width(b'1'));
