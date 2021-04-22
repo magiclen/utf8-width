@@ -1,6 +1,6 @@
 [package]
 name = "utf8-width"
-version = "0.1.4"
+version = "0.1.5"
 authors = ["Magic Len <len@magiclen.org>"]
 edition = "2018"
 repository = "https://github.com/magiclen/utf8-width"

@@ -1,7 +1,7 @@
 UTF-8 Width
 ====================
 
-[![Build Status](https://travis-ci.org/magiclen/utf8-width.svg?branch=master)](https://travis-ci.org/magiclen/utf8-width)
+[![CI](https://github.com/magiclen/utf8-width/actions/workflows/ci.yml/badge.svg)](https://github.com/magiclen/utf8-width/actions/workflows/ci.yml)
 
 To determine the width of a UTF-8 character by providing its first byte.
 
