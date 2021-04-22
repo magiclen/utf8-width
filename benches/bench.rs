@@ -138,5 +138,11 @@ fn retrieve_get_width_by_chars(bencher: &mut Bencher) {
     bencher.bytes = length as u64;
 }
 
-benchmark_group!(get_width, retrieve_get_width, retrieve_get_width_assume_valid, retrieve_get_width_by_looking_table, retrieve_get_width_by_chars);
+benchmark_group!(
+    get_width,
+    retrieve_get_width,
+    retrieve_get_width_assume_valid,
+    retrieve_get_width_by_looking_table,
+    retrieve_get_width_by_chars
+);
 benchmark_main!(get_width);

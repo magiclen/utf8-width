@@ -69,9 +69,11 @@ pub fn get_width(byte: u8) -> usize {
         1
     } else if is_width_2(byte) {
         2
-    } else if byte <= MAX_3 { // no need to check `MIN_3 <= byte`
+    } else if byte <= MAX_3 {
+        // no need to check `MIN_3 <= byte`
         3
-    } else if byte <= MAX_4 { // no need to check `MIN_4 <= byte`
+    } else if byte <= MAX_4 {
+        // no need to check `MIN_4 <= byte`
         4
     } else {
         0
