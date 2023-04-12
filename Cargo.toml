@@ -3,6 +3,7 @@ name = "utf8-width"
 version = "0.1.6"
 authors = ["Magic Len <len@magiclen.org>"]
 edition = "2021"
+rust-version = "1.56"
 repository = "https://github.com/magiclen/utf8-width"
 homepage = "https://magiclen.org/utf8-width"
 keywords = ["utf-8", "width", "length", "character"]
