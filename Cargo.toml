@@ -9,7 +9,6 @@ homepage = "https://magiclen.org/utf8-width"
 keywords = ["utf-8", "width", "length", "character"]
 categories = ["no-std", "encoding"]
 description = "To determine the width of a UTF-8 character by providing its first byte."
-readme = "README.md"
 license = "MIT"
 include = ["src/**/*", "Cargo.toml", "README.md", "LICENSE", "benches/bench.rs"]
 
