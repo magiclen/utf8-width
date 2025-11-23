@@ -64,7 +64,6 @@ fn retrieve_get_width_assume_valid(bencher: &mut Bencher) {
         let mut widths = Vec::new();
 
         let mut p = 0;
-        let length = bytes.len();
 
         loop {
             let e = bytes[p];
@@ -94,7 +93,6 @@ fn retrieve_get_width_by_looking_table(bencher: &mut Bencher) {
         let mut widths = Vec::new();
 
         let mut p = 0;
-        let length = bytes.len();
 
         loop {
             let e = bytes[p];
